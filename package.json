@@ -1,0 +1,35 @@
+{
+  "name": "achart-arearange",
+  "version": "1.0.0",
+  "description": "区域区间图",
+  "keywords": [],
+  "homepage": "",
+  "author": "祯逸 ajsdhfg@163.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acharts/achart-arearange.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "achart-util" : "1.0.0",
+      "achart-series": "1.0.0",
+      "achart-actived" : "1.0.0",
+      "achart-legend" : "1.0.1"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1",
+      "acharts" : "1.0.12",
+      "achart-axis" : "1.0.0",
+      "achart-plot" : "1.0.0",
+      "event-simulate" : "1.0.0",
+      "jquery" : "1.9.1",
+      "sinon" : "1.6.0"
+    },
+    "tests": "tests/index-spec.js"
+  }
+}
