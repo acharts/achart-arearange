@@ -139,19 +139,7 @@ var chart = new AChart({
   },
   seriesOptions : { //设置多个序列共同的属性
     arearangeCfg : { //如果数据序列未指定类型，则默认为指定了xxCfg的类型，否则都默认是line
-      markers : null,
-      line: {
-      	stroke: null
-      },
-      area: {
-      	stroke: null
-      },
-      lineActived: {
-		stroke: null
-	  },
-	  areaActived: {
-		stroke: null
-	  }
+      
     }
   },
   tooltip : {

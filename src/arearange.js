@@ -76,7 +76,6 @@ Util.augment(Arearange,{
          _self._drawArea(points);
         _self._drawLine(points);
       }
-      console.log(JSON.stringify(points));
     },
     /**
      * 获取提示信息
@@ -321,7 +320,6 @@ Util.augment(Arearange,{
           highPath: [newHigh]
         }
       }
-      console.log(linePath);
       return linePath;
     },
     point2path: function(points){
